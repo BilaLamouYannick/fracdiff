@@ -1,7 +1,6 @@
 [tool.poetry]
 name = "fracdiff"
-version = ""
-# version = "0.9.1"
+version = "0.9.1"
 description = "Super-fast fractional differentiation."
 authors = ["Shota Imaki <shota.imaki.0801@gmail.com>"]
 license = "BSD-3-Clause"
@@ -9,7 +8,8 @@ repository = "https://github.com/fracdiff/fracdiff"
 
 [tool.poetry.dependencies]
 # python = ">=3.8,<3.12"
-python = "^3.11.7"
+# python = "^3.11.7"
+python = ">=3.8, <5.0"
 numpy = "^1.24.1"
 scipy = "^1.10.0"
 # statsmodels = {git = "https://github.com/statsmodels/statsmodels.git"} # https://github.com/statsmodels/statsmodels/issues/8543
